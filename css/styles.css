@@ -1,0 +1,95 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-input{
+    display: block;
+    text-align: center;
+    max-width: 50%;
+    height: 30px;
+    background-color: white;
+    margin: auto auto 1% auto;
+}
+
+.div-form{
+    padding-top: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid;
+}
+
+.div-form h3{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+}
+
+.div-form input{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.div-form textarea{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    max-width: 90%;
+    min-width: 90%;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.send-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.div-comment{
+    padding-top: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid;
+    display: flex;
+    margin-bottom: 2%;
+}
+.div-comment img{
+    width: 20%;
+    height: 20%;
+}
+.comment-data{
+    width: 80%;
+}
+.comment-data h2{
+    margin: 0 auto 0 auto;
+    width: 60%;
+    text-align: center;
+    border-bottom: black solid 1px;
+}
+.comment-data h4{
+    margin-top: 1%;
+    text-align: center;
+}
+.comment-data p{
+    overflow: hidden;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
